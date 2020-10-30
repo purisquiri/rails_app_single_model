@@ -1,0 +1,8 @@
+<h1>Legos index</h1>
+<p>This is the list of all our available legos</p>
+<ul>
+<% @legos.each do |lego|%>
+<li><%= link_to lego.name,  lego_path(lego.id)  %></li>
+<%end%>
+</ul>
+

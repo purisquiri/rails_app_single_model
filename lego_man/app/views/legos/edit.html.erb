@@ -1,0 +1,15 @@
+<h1>Update your lego</h1>
+
+<%= form_for @lego do |f| %>
+<%= f.label :name%><br>
+<%= f.text_field :name%><br>
+<%= f.label :color%><br>
+<%= f.text_field :color%><br>
+<%= f.label :theme%><br>
+<%= f.text_field :theme%><br>
+<%= f.label :gender%><br>
+<%= f.text_field :gender%><br>
+<%= f.select :trump, [false]%>
+<%=f.submit%>
+<%end%>
+
