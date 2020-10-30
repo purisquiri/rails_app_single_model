@@ -1,6 +1,6 @@
 # rails_app_single_model
 
-## Work with a partner to create your own Rails app from scratch! Fork and clone this Readme, then type `rails new our_cool_app_name -G`
+#### Work with a partner to create your own Rails app from scratch! Fork and clone this Readme, then type `rails new our_cool_app_name -G`
 
 ### Requirements:
 - Full CRUD on a single model
